@@ -87,6 +87,6 @@ publish {
     publishVersion = '1.0.0'    //compile引用时的第3部分版本号
     desc = '新闻频道编辑，仿网易新闻app下拉标签选择菜单，长按拖动排序，点击增删标签控件 '//d项目描述
     repoName="maven" //你的仓库名称，没有填写默认仓库是maven//这也是很多人上传仓库不对名问题最多情况，
-    website = '' //github 托管地址
+    website = 'https://github.com/hexuejian/ChannelEdit' //github 托管地址
 }
 
