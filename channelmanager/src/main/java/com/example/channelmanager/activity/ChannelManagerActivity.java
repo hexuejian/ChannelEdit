@@ -2,7 +2,7 @@ package com.example.channelmanager.activity;
 
 import android.content.Context;
 import android.os.Bundle;
-import androidx.appcompat.app.AppCompatActivity;
+
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -12,6 +12,7 @@ import com.example.channelmanager.ProjectChannelBean;
 import com.example.channelmanager.R;
 import com.example.channelmanager.adapter.ChannelAdapter;
 import com.example.channelmanager.base.IChannelType;
+import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.ArrayList;
 import java.util.List;
