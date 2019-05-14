@@ -45,7 +45,6 @@ allprojects {
     repositories {
         jcenter()
     }
-
     //加上这些
     tasks.withType(Javadoc) {
         options{ encoding "UTF-8"
@@ -83,13 +82,12 @@ artifacts {
 
 
 publish {
-    repoName="maven"//仓库名
+    repoName="maven" //你的仓库名称，没有填写默认仓库是maven//这也是很多人上传仓库不对名问题最多情况，
     userOrg = 'hexuejian1'      //bintray注册的用户名
     groupId = 'com.hxj.channel'         //compile引用时的第1部分groupId
     artifactId = 'ChannelEdit'     //compile引用时的第2部分项目名
     publishVersion = '1.0.2'    //compile引用时的第3部分版本号
     desc = '新闻频道编辑，仿网易新闻app下拉标签选择菜单，长按拖动排序，点击增删标签控件 '//d项目描述
-    repoName="maven" //你的仓库名称，没有填写默认仓库是maven//这也是很多人上传仓库不对名问题最多情况，
     website = 'https://github.com/hexuejian/ChannelEdit' //github 托管地址
 }
 
